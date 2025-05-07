@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.game {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.player {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 10px;
+  background-color: purple;
+}
+
+.center {
+  width: 200px;
+  padding: 20px 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score {
+  font-size: 50px;
+  margin: 20px 0;
+  color: blue;
+}
+
+.current {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dice-number {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px 0;
+  color: black;
+}
+.player.active {
+  background-color: rgb(86, 41, 86);
+}
